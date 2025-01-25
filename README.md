@@ -6,6 +6,11 @@ A Minor Variant of Splicehack made by AntiGulp
 
 ## Installation (Unix Only Currently)
 
+-- gdb is required for hitchhack to run
+
+```sudo apt install gdb``` for debian based systems
+```sudo pacman -S gdb``` for arch based systems
+
 ### Compile Instructions
 - run the ./setup.sh inside of /HitcHack/sys/unix using the hints dir as an input "./setup.sh /hints/[your unix system]"
 - move into /HitchHack/src and run 'make' and 'make install' inside of /HitchHack/
